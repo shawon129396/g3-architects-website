@@ -147,6 +147,26 @@
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+/* fetures section related styles */
+#fetures-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.fetures-card .fetures-title{
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.fetures-card{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+.fetures{
+  gap: 140px;
+}
 
   /* responsive media query */
   @media screen and (max-width: 576px) {
